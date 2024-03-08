@@ -1,0 +1,111 @@
+
+body {
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    color: #333333;
+    background-color: #696969;
+}
+
+.contenedor {
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+
+
+/* TIPOGRAFIAS */
+h1 {
+    font-size: 3.8rem;
+}
+
+h2 {
+    font-size: 2.8rem;
+    color: #523a34;
+}
+
+h3 {
+    font-size: 1.8rem;
+}
+
+h1,h2,h3 {
+    text-align: center;
+}
+
+
+
+/* HEADER */
+.header h1{
+    font-weight: lighter;
+}
+
+.header span{
+    font-weight: bold;
+}
+
+.wave {
+    margin-bottom: -2.8rem;
+}
+
+
+/* CONTENIDO PRINCIPAL */
+.main {
+    background-color: #ffffff;
+}
+
+/* FOOTER */
+.footer .redes{
+    text-align: center;
+}
+
+.footer .redes a {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    text-decoration: none;
+}
+
+.footer .texto {
+    text-align: center;
+    color: white;
+}
+
+
+/* BOTONES */
+.boton {
+    background-color: #523a34;
+    color: #ffffff;
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    font-size: 1rem;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5rem;
+    width: 90%;
+    text-align: center;
+    border: none;
+}
+
+#textInCarrousel {
+    background-color: transparent;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#textInCarrousel:hover {
+    background-color: black;
+    color: white;
+    opacity: 0.8;
+}
+
+.blur {
+    filter: blur(5px);
+}
+
+.article-content {
+    background-color: rgba(255, 255, 255, 0.7); /* Fondo semi-transparente */
+    padding: 20px; /* Espaciado interno */
+    margin: 20px; /* Espaciado externo */
+    border-radius: 10px; /* Bordes redondeados */
+}
+
+.textHistory {
+    margin-bottom: 10px;
+}
