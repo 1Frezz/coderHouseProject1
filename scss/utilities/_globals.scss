@@ -1,0 +1,77 @@
+/* Estilos globales */
+
+body {
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    color: #333333;
+    background-color: #696969;
+}
+
+/* Container */
+
+.contenedor {
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+/* TIPOGRAFIAS */
+h1 {
+    font-size: nth($list: $fontSize, $n: 1);
+}
+
+h2 {
+    font-size: nth($list: $fontSize, $n: 2);
+    color: #523a34;
+}
+
+h3 {
+    font-size: nth($list: $fontSize, $n: 3);
+}
+
+h1,h2,h3 {
+    text-align: center;
+}
+
+/* CONTENIDO PRINCIPAL */
+.main {
+    @include bgColor ($mainBgColor);
+}
+
+/* BOTONES */
+.boton {
+    @include bgColor (#523a34);
+    color: #ffffff;
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    font-size: nth($list: $fontSize, $n: 4);
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5rem;
+    width: 90%;
+    text-align: center;
+    border: none;
+}
+
+#textInCarrousel {
+    @include bgColor (transparent);
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#textInCarrousel:hover {
+    @extend %efectForCarrousel;
+}
+
+.blur {
+    filter: blur(5px);
+}
+
+.article-content {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 20px; 
+    margin: 20px; 
+    border-radius: 10px;
+}
+
+.textHistory {
+    margin-bottom: 10px;
+}
