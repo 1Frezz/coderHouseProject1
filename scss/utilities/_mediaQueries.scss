@@ -1,7 +1,27 @@
+@media (max-width: 991px) {
+    .gridLayout, .boxGrid {
+        display: block;
+    }
+    .row, .container {
+        display: block;
+        margin-bottom: 5px;
+    
+    & .col-4 {
+        text-align: center;
+    }
+
+    & img {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+    }
+}
+}
+
 @media (max-width: 768px) {
-                            
-    .col-4 img{
-        display: none;
+    
+    .row, #itemsRow {
+        display: block;
     }
 
     .textHistory {

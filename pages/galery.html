@@ -12,60 +12,55 @@
             integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
         <!-- CSS -->
         <link rel="stylesheet" href="../css/main.css">
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="../img/faviconFrance.png" type="image/x-icon">
         <title>Paris, France</title>
     </head>
     
     <body>
-        <header class="header text-center" id="headerGalery"> 
+        <header class="header text-center" id="headerGalery">
             <h1><span>París</span>, France</h1>
-            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="../index.html"><img src="../img/franceFlag.png" height="10%" width="50rem"></a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
+                    <a class="navbar-brand" href="index.html"><img src="../img/franceFlag.png" height="10%" width="50rem"></a>
+                    <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="toggler-icon top-bar"></span>
+                        <span class="toggler-icon middle-bar"></span>
+                        <span class="toggler-icon bottom-bar"></span>
                     </button>
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav">
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="nav-item">
                                 <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="./galery.html">Galeria</a>
+                                <a class="nav-link" href="galery.html">Galeria</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="./history.html">Historia</a>
+                                <a class="nav-link" href="history.html">Historia</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="./tourInMovie.html">Tour en video</a>
+                                <a class="nav-link" href="tourInMovie.html">Tour en video</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="./contact.html">Contacto</a>
+                                <a class="nav-link" href="contact.html">Contacto</a>
                             </li>
-                        </ul>
                     </div>
                 </div>
             </nav>
-            
-        </header> 
+        
+        </header>
         <main class="main"> 
-            
-            <div class="row">
-                <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
-                <img src="../img/elíseosCampos.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="Eliseos Campos París"/>
-                <img src="../img/museoDeLouvre.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="Museo de Louvre París"/>
+            <div class="gridLayout">
+                <div class="boxGrid div1"><img src="../img/elíseosCampos.jpg" alt=""></div>
+                <div class="boxGrid div2"><img src="../img/museoDeLouvre.jpg" alt=""></div>
+                <div class="boxGrid div3"><img src="../img/torreEiffel2.jpg" alt=""></div>
+                <div class="boxGrid div4"><img src="../img/disneyLandInParis.jpg" alt=""></div>
+                <div class="boxGrid div5"><img src="../img/versallesPalace.jpg" alt=""></div>
+                <div class="boxGrid div6"><img src="../img/franceParisStreetMontmartre.jpg" alt=""></div>
                 </div>
-
-                <div class="col-lg-4 mb-4 mb-lg-0">
-                <img src="../img/torreEiffel2.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="Torre Eiffel París"/>
-                <img src="../img/disneyLandInParis.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="Disney Land París"/>
-                </div>
-
-                <div class="col-lg-4 mb-4 mb-lg-0">
-                <img src="../img/versallesPalace.jpg" class="w-100 shadow-1-strong rounded mb-4" id="imgThridPosition" alt="Palacio de versalles París"/>
-                <img src="../img/franceParisStreetMontmartre.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="Calles de Montmartre París"/>
-                </div>
-            </div>
         </main>
 
         <footer class="footer text-center"> 

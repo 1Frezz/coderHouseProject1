@@ -17,18 +17,17 @@ body {
 /* TIPOGRAFIAS */
 h1 {
     font-size: nth($list: $fontSize, $n: 1);
+    text-align: center;
 }
 
 h2 {
     font-size: nth($list: $fontSize, $n: 2);
     color: #523a34;
+    text-align: center;
 }
 
 h3 {
     font-size: nth($list: $fontSize, $n: 3);
-}
-
-h1,h2,h3 {
     text-align: center;
 }
 
@@ -55,12 +54,12 @@ h1,h2,h3 {
 #textInCarrousel {
     @include bgColor (transparent);
     transition: background-color 0.3s, color 0.3s;
-}
 
-#textInCarrousel:hover {
-    @extend %efectForCarrousel;
-}
 
+    &:hover {
+        @extend %efectForCarrousel;
+    }
+}
 .blur {
     filter: blur(5px);
 }
@@ -74,4 +73,11 @@ h1,h2,h3 {
 
 .textHistory {
     margin-bottom: 10px;
+}
+
+.row {
+    margin-bottom: 10px;
+    & img {
+        width: 80%;
+    }
 }
